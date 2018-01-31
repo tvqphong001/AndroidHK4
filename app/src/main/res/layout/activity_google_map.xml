@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phongson.activity.Google_map">
+
+    <!--<fragment-->
+        <!--android:id="@+id/myMap"-->
+        <!--android:name="com.google.android.gms.maps.MapFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+    <!--</fragment>-->
+    <TextView
+        android:text="Trường Đại học Công nghệ Sài Gòn-STU là một trường đại học tư thục tại Thành phố Hồ Chí Minh"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Địa chỉ: 180 Cao Lỗ, Phường 4, Quận 8, Hồ Chí Minh"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content" />
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.tranvuonhquyenphong.activity.Google_map" />
+</LinearLayout>

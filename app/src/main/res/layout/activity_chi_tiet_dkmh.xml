@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFFFF"
+    android:layout_height="match_parent"
+    tools:context="com.phongson.activity.ChiTietDKMHActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:background="#0e5aa8"
+        android:orientation="horizontal">
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Trang Chủ"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="#0e5aa8"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:id="@+id/btnTrangchu"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới thiệu"
+            android:layout_marginRight="20dp"
+            android:background="#0e5aa8"
+            android:textColor="#FFF"
+            android:id="@+id/btnGioiThieu"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liên Hệ"
+            android:layout_marginRight="20dp"
+            android:background="#0e5aa8"
+            android:textColor="#FFF"
+            android:id="@+id/btnLienHe"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDangKy"
+            android:background="@color/colorMain"
+            android:textColor="#FFF"
+            android:text="Dang ky"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#bf1111"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="30dp"
+
+            android:text="Môn học đã đăng ký"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvChiTietDKMH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

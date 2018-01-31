@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuTrangChu"
+        android:icon="@drawable/trangchu"
+        app:showAsAction="always"
+        android:title="Trang Chủ"
+        ></item>
+    <item
+        android:id="@+id/mnuAbout"
+        android:icon="@drawable/users"
+        android:title="Thông Tin Sinh Viên"
+        app:showAsAction="always" />
+    <item
+
+        android:title="Bảng Điểm"
+        android:id="@+id/mnuBangDiem"
+        android:icon="@drawable/bangdiem"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item android:id="@+id/mnuDangXuat"
+        android:title="Đăng xuất">
+
+    </item>
+    <item
+        android:id="@+id/mnuBanDo"
+        android:title="Bản đồ" />
+    <item
+        android:id="@+id/mnuExit"
+        android:title="Thoát" />
+</menu>

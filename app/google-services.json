@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "575066528520",
+    "firebase_url": "https://doanandroid-fbdb.firebaseio.com",
+    "project_id": "doanandroid-fbdb",
+    "storage_bucket": "doanandroid-fbdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575066528520:android:5f718360c1ccce07",
+        "android_client_info": {
+          "package_name": "com.phongson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575066528520-gfmeh7hfj82unso0u6k5bfufl08lj626.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phongson",
+            "certificate_hash": "54de3b49483257a093ba29ccfbb65342fc5d4b33"
+          }
+        },
+        {
+          "client_id": "575066528520-cefe2uit6j6idu2usi5eeo1jrse6ngup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhSVSEB0x8SMI__2U9-mhSmW5QdDuTb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575066528520-cefe2uit6j6idu2usi5eeo1jrse6ngup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
